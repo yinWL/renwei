@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="main_box">
+  <swiper class="swiper_box col_fff" indicator-dots="true">
+    <block>
+      <swiper-item class="swiper_item bg2">
+        A
+      </swiper-item>
+      <swiper-item class="swiper_item bg3">
+        B
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="entry_view">
+    <view class="entry_btn type01">产品中心</view>
+    <view class="entry_btn type02">配件商城</view>
+  </view>
+  <view class="recommend">精品推荐 <text class="icon_more" decode>更多&nbsp;&nbsp;></text></view>
+  <view class="list_box">
+    <view class="list_item">
+      <image class="item_image" src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+      <text class="" selectable="false" space="false" decode="false">冲剪机</text>
+      <view class="button_view" hover-class="none" hover-stop-propagation="false">
+        <button class="btn01" plain size="mini">询价</button>
+      </view>
+      
+    </view>
+    <view class="list_item">
+      <image class="item_image" src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+      <text class="" selectable="false" space="false" decode="false">冲剪机</text>
+
+    </view>
+    <view class="list_item">
+      <image class="item_image" src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+      <text class="" selectable="false" space="false" decode="false">冲剪机</text>
+
+    </view>
+  </view>
+</view>

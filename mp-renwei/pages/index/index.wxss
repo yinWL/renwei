@@ -1,0 +1,115 @@
+/**index.wxss**/
+view {
+  box-sizing: border-box;
+}
+.bg1 {
+  background-color: #fff;
+}
+.bg2 {
+  background-color: #cbd853;
+}
+.bg3 {
+  background-color: #53b2d8;
+}
+.bg4 {
+  background-color: #d89a53;
+}
+.bg5 {
+  background-color: #5360d8;
+}
+.bg6 {
+  background-color: #d853c6;
+}
+.col_fff {
+  color: #ffffff;
+}
+/* 轮播 */
+.swiper_box {
+  width: 100%;
+  height: 360rpx;
+  /* background-color: #aaa; */
+}
+.swiper_item {
+  text-align: center;
+  line-height: 360rpx;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(128, 185, 235); */
+}
+
+.entry_view {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+}
+.entry_btn {
+  width: 50%;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 38rpx;
+  color: #fff;
+}
+.entry_btn.type01 {
+  /* background: -webkit-linear-gradient(left top, #eeff00 , #00c3ff); */
+  background: linear-gradient(#ffbb00, #ff1e00);
+  /* background: linear-gradient(left top, #eeff00 , #00c3ff); */
+}
+.entry_btn.type02 {
+  background: linear-gradient(#7feee8, #ea00ff);
+}
+.recommend {
+  overflow: hidden;
+  font-size: 30rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding: 0 20rpx;
+  font-weight: bold;
+  border-bottom: 6rpx solid #e3e4e4;
+  border-top: 6rpx solid #e3e4e4;
+}
+.icon_more {
+  font-size: 24rpx;
+  font-weight: 400;
+  float: right;
+}
+
+.list_box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 30rpx;
+}
+.list_item {
+  overflow: hidden;
+  width: 50%;
+  padding: 0 30rpx 30rpx;
+}
+.list_item image {
+  width: 100%;
+  background: rosybrown;
+  height: 350rpx;
+  border-radius: 20rpx 20rpx 0 0;
+}
+.list_item text {
+  padding-top: 15rpx;
+  padding: 20rpx;
+  font-size: 25rpx;
+  font-weight: bold;
+}
+.button_view {
+  /* background: cornsilk; */
+}
+.button_view .btn01 {
+  margin-left: 20rpx;
+  margin-top: 15rpx;
+  height: 40rpx;
+  width: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25rpx;
+  font-weight: 400;
+  color: #ffbb00;
+  border-color: #ffbb00;
+  border-radius: 30rpx;
+}
